@@ -1,0 +1,15 @@
+  var num1 = 5
+        var num2 = 1
+        function sum(a, b) {
+            let result = a + b
+            return result
+        }
+        let result = sum(num1, num2)
+        console.log("합: " + result)
+        console.log("===========")
+        function minus(a, b) {
+            let result1 = a - b
+            return result1
+        }
+        let result1 = minus(num1, num2)
+        console.log("뺀값: " + result1)
